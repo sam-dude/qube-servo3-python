@@ -1,6 +1,6 @@
 # sp6 · Pendulum Control — 2: Swing-Up Control
 
-**Quanser reference:** [sp6 Application Guide — Swing-Up Control](https://github.com/quanser/Quanser_Academic_Resources/blob/dev-windows/6_teaching/1_Controls/Qube_Servo_3/sp6_pendulum_control/2_swing_up_control/)
+[Quanser reference](https://github.com/quanser/Quanser_Academic_Resources/blob/dev-windows/6_teaching/1_Controls/Qube_Servo_3/sp6_pendulum_control/2_swing_up_control/) · [Parent README](../../README.md) · [Previous lab: LQR Control](../1b_lqr_control/README.md)
 
 ---
 
@@ -83,7 +83,9 @@ python sp6_pendulum_control/2_swing_up_control/swing_up_control.py
 
 The script runs on the virtual twin (hardware=0). Let the pendulum hang at rest; it will auto-kick and begin pumping energy. Watch the energy trace approach E_r. If the pendulum consistently overshoots and doesn't settle near upright, reduce E_r by 1–2 mJ with `[j]`.
 
-To chain swing-up into balance: run this script until the pendulum is consistently reaching near-upright, then switch to `lqr_balance_control.py` for the catch. A combined script (swing-up → automatic LQR catch handoff) is the next planned milestone.
+To chain swing-up into balance: run this script until the pendulum is consistently reaching near-upright, then switch to `lqr_balance_control.py` for the catch.
+
+A combined script (swing-up → automatic LQR catch handoff) is the next planned milestone.
 
 ---
 
