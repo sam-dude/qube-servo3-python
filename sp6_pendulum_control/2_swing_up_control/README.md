@@ -93,9 +93,9 @@ A combined script (swing-up → automatic LQR catch handoff) is the next planned
 
 | Item | Status |
 |---|---|
-| Virtual twin — sat_prop mode | ✓ Validated: consistent swing-up to near-upright |
-| Virtual twin — smooth mode | ✓ Validated |
-| Virtual twin — bang-bang mode | ✓ Validated (faster but more voltage chatter) |
+| Virtual twin — sat_prop mode | In progress — does not yet swing up to upright |
+| Virtual twin — smooth mode | In progress — not yet verified |
+| Virtual twin — bang-bang mode | In progress — not yet verified |
 | Physical hardware | Not yet tested |
 | Combined swing-up + balance handoff | Not yet implemented — open milestone |
 

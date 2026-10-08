@@ -22,7 +22,7 @@ The long-term aim is a complete Python port of Quanser's seven-pipeline curricul
 | sp5. Pendulum Modeling | State-Space Modeling | Done |
 | sp6. Pendulum Control | 1a. Balance Control | Done (implemented as a mode of 1b, see `sp6_pendulum_control/1a_balance_control/README.md`) |
 | sp6. Pendulum Control | 1b. LQR/LQI Control | Done |
-| sp6. Pendulum Control | 2. Swing-Up Control | Done |
+| sp6. Pendulum Control | 2. Swing-Up Control | In progress (does not swing up to upright) |
 
 > **Note on sp6 status:** balance control holds indefinitely in simulation. On physical hardware, balance currently degrades after approximately 5 seconds. This is a known, documented gap; see `sp6_pendulum_control/1b_lqr_control/README.md` for details. It is treated as an open problem, not a resolved one.
 
